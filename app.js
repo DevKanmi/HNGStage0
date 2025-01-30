@@ -17,7 +17,7 @@ app.get('/profile', (req, res) => {
     res.status(200).json({
         email: "akinbayookanmiyo@gmail.com",
         current_datetime: current_time,
-        github_url: "<https://github.com/devKanmi/HNGStage0>"
+        github_url: "https://github.com/devKanmi/HNGStage0"
     })
 })
 

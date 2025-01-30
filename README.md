@@ -59,7 +59,7 @@ ENDPOINT: GET
  {
   "email": "akinbayookanmiyo@gmail.com",
   "current_datetime": "2025-01-30T00:00:33Z",
-  "github_url": "<https://github.com/devKanmi/HngStage0>"
+  "github_url": "https://github.com/devKanmi/HngStage0"
 }
  ```
 
