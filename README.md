@@ -52,7 +52,7 @@ npm run start
 <br>
 
 ### API Specificaton
-ENDPOINT: GET 
+ENDPOINT: GET https://hngstage0-0qb0.onrender.com/profile
 
 #### Response format
  ```bash
@@ -64,7 +64,7 @@ ENDPOINT: GET
  ```
 
  ### Depoloyment
- Deployed publicly at: 
+ Deployed publicly at: https://hngstage0-0qb0.onrender.com/
 
 ### Additional Resources
 Hiring a Node.js Developer? check out:
