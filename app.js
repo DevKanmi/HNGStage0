@@ -6,7 +6,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-const current_time = moment().utc().format()
+const current_time = moment.utc().format('YYYY-MM-DDTHH:mm:ss[Z]')
 const PORT = 4000
 
 app.get('/', (req, res) =>{
@@ -14,9 +14,10 @@ app.get('/', (req, res) =>{
 })
 
 app.get('/profile', (req, res) => {
+    res.set('Cache-Control', 'no-store')
     res.status(200).json({
         email: "akinbayookanmiyo@gmail.com",
-        current_datetime: current_time,
+        current_datetime: moment.utc().format(),
         github_url: "https://github.com/devKanmi/HNGStage0"
     })
 })
